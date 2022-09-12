@@ -1,0 +1,18 @@
+@import "reset";
+@import "loginAndRegister";
+@import "todo";
+
+.footer{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    line-height: 24px;
+    a{
+        display: inline-block;
+        color: blue;
+        text-decoration: underline;
+    }
+    @media (max-width: 575px) {
+        position: absolute;
+    }
+}
